@@ -1,0 +1,234 @@
+html, body, .container {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.section {
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px lightgrey;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  height: 70px;
+  box-shadow: 2px 2px lightgrey;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: white;
+}
+
+i {
+  color: rgba(206, 198, 105, 1);
+}
+
+.nav-btn {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-color: rgba(206, 198, 105, 1);
+  border-radius: 5px;
+  margin: 15px 20px 0px 0px;
+}
+
+.logo {
+  font-family: impact;
+  color: rgba(206, 198, 105, 1);
+  margin: 15px 0px 0px 15px;
+  font-style: italic;
+}
+
+.menu {
+  position: fixed;
+  height: 0;
+  margin-top: 70px;
+  opacity: 0;
+  z-index: 500;
+  overflow: hidden;
+  width: 100vw;
+  background-color: white;
+  transition: 500ms all;
+}
+
+.showMenu {
+  opacity: .9;
+  height: 110px;
+}
+
+.menu-item {
+  list-style-type: none;
+  color: rgba(206, 198, 105, 1);
+  font-size: 20px;
+  margin: 5px 10px 0 0;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: none;
+  transition: 300ms ease;
+}
+
+.showModalMask {
+  display: table;
+}
+
+.showCaModalMask {
+  display: table;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+  transition: all 300ms ease;
+  font-family: Helvetica, Arial, sans-serif;
+  display: none;
+}
+
+.showModal {
+  display: block;
+}
+
+.showCaModal {
+  display: block;
+}
+
+.modal-header {
+  margin-top: 0;
+  color: rgba(206, 198, 105, 1);
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-btn {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.alert-text {
+  color: red;
+}
+
+.confirm-text {
+  color: green;
+}
+
+.profile {
+  margin: 10px 0 10px 0;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px lightgrey;
+}
+
+.sidebar {
+  margin-top: 80px;
+  background-color: white;
+  height: 100vh;
+  border-radius: 5px;
+  box-shadow: -2px 2px lightgrey;
+}
+
+.profile-pic {
+  width: 100px;
+  margin: 20px;
+}
+
+.profile-text {
+  margin: 18px 0px 0px 20px;
+}
+
+.cc-div {
+  margin-top: 80px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px lightgrey;
+  padding: 10px;
+}
+
+.create-challenge {
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.cc-btn {
+  background-color: white;
+  border-color: rgba(206, 198, 105, 1);
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  margin-top: 5px;
+}
+
+.section-title {
+  margin-bottom: 15px;
+}
+
+.random-div {
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px lightgrey;
+  padding: 10px;
+}
+
+.current-challenge {
+  height: 100px;
+}
+
+button {
+  background-color: white;
+  width: 65px;
+  border-radius: 5px;
+}
+
+.skip-btn {
+  color: red;
+}
+
+.accept-btn {
+  color: green;
+}
+
+.completed-div {
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px lightgrey;
+  padding: 10px;
+}
